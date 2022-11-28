@@ -1,0 +1,10 @@
+[package]
+name = "queens"
+description = "Implementation of a genetic algorithm to solve n-queens puzzles."
+authors = ["Gabe Livengood"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+rand = "0.8.5"
