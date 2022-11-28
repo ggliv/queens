@@ -2,18 +2,6 @@ use rand::seq::SliceRandom;
 use rand::{thread_rng, Rng};
 use std::io::Write;
 
-/*
-    Optimization opportunities
-    +=+=+=+=+=+=+=+=+=+=+=+=+=
-    Replace `count_intersects()` with a function that just says whether one board is better
-    than another. Counting past the point where you know that is pointless.
-
-    Tune population size.
-
-    Multithreading?
-
-    Reduce `clone()` operations.
-*/
 fn main() {
     print!("n?: ");
     std::io::stdout().flush().expect("Failed to flush stdout.");
